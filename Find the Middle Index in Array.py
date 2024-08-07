@@ -7,6 +7,7 @@ class Solution(object):
             if left_sum == right_sum:
                 return i
             left_sum += nums[i]
+            
 sol = Solution()
 nums = [2, 3, -1, 8, 4]
 print(sol.findMiddleIndex(nums))
