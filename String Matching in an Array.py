@@ -11,5 +11,3 @@ class Solution(object):
 sol = Solution()
 words = ["mass","as","hero","superhero"]
 print(sol.stringMatching(words))
-words = ["leetcode","et","code"]
-print(sol.stringMatching(words))
